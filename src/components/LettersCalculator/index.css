@@ -1,0 +1,79 @@
+/* Write your code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  color: #ffffff;
+  font-family: 'Roboto';
+  padding: 6px;
+}
+
+.heading {
+  font-size: 40px;
+  width: 80%;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.para {
+  font-size: ;
+}
+
+.input-content {
+  outline: none;
+  border: 2px solid #e4e7eb;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: transparent;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.button-container {
+  margin-top: 10px;
+}
+
+.button {
+  background-color: #ffffff;
+  padding: 15px;
+  font-size: 25px;
+  color: #219a6f;
+  font-weight: bold;
+  border-radius: 8px;
+  border-width: 0px;
+  outline: none;
+}
+
+@media screen and (max-width: 991px) {
+  .bg-container {
+    background-image: linear-gradient(to right, #1d976c, #93f9b9);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .count-container {
+    order: 1;
+  }
+
+  .image {
+    width: 400px;
+    height: 300px;
+  }
+
+  .image-container {
+    order: -1;
+  }
+}
